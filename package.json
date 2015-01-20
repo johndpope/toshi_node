@@ -1,6 +1,6 @@
 {
-  "name": "node_toshi",
-  "version": "0.0.1",
+  "name": "toshi",
+  "version": "0.0.2",
   "description": "node.js wrapper for the toshi bitcoin node",
   "main": "lib/toshi.js",
   "scripts": {
@@ -17,5 +17,9 @@
   "license": "ISC",
   "dependencies": {
     "request": "^2.51.0"
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Harborly/toshi_node"
   }
 }
