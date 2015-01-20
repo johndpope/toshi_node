@@ -2,7 +2,7 @@ Addresses = require './modules/addresses'
 Blocks = require './modules/blocks'
 Transactions = require './modules/transactions'
 
-module.exports = class Toshi
+class Toshi
 
 	constructor: (url) ->
 
@@ -13,3 +13,4 @@ module.exports = class Toshi
 		@block = new Blocks(@url)
 		@transaction = new Transactions(@url)
 
+module.exports = new Toshi()
